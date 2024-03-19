@@ -1,0 +1,88 @@
+.ul
+.button a{
+    text-decoration: none;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    padding: 0em 1em;
+    color: black;
+    margin-bottom: 0.6em;
+}
+
+.ul .button, .button2{
+    text-decoration: none;
+    font-family: outfit;
+    font-size: 19px;
+    color: rgb(0 33 84);
+    font-weight: 400;
+    position: relative;
+    background: transparent;
+    border: none;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ul .button2{
+    position: relative;
+    height: 2.5em;
+}
+
+.ul .button:before {
+    content: "";
+    position: absolute;
+    bottom: 13px;
+    height: 4px;
+    width: 0;
+    background: #000000;
+    border-radius: 50px;
+    transition: width 0.3s ease;
+    opacity: 50%;
+}
+
+.ul .button2:before{
+        content: "";
+        position: absolute;
+        height: 4px;
+        width: 0;
+        bottom: 0;
+        background: #000000;
+        border-radius: 50px;
+        transition: width 0.3s ease;
+        opacity: 50%;
+        }
+
+.ul .button:hover:before , .ul .button2:hover:before{
+    width: 70%;
+}
+.searchbar{
+    width: 15.5em;
+    height: 2em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 11px 12px;
+    position: relative;
+    top: 9px;
+    left: 4em;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 1em;
+}
+.searchbar .button img{
+    width: 25px;
+}
+.searchbar .button{
+    border: 0;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+    margin: 0;
+}

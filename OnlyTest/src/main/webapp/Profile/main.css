@@ -1,0 +1,52 @@
+
+.container{
+    font-family: outfit;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(230, 230, 230);
+}
+
+.profileB1{
+    padding: 2.5em 6em;
+    text-align: center;
+    background: #f6f6f6;
+    position: relative;
+    right: 4em;
+}
+
+.container hr{
+    margin: 0;
+    border: 1px solid rgb(220, 220, 220);
+    position: relative;
+    right: 4em;
+}
+
+.profileB2{
+    margin-right: 5em;
+    height: fit-content; 
+    display: grid;
+}
+
+.PersnolDetail{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0em 1em;
+    width: 55em;
+    margin-bottom: 2em;
+}
+
+.sub_details{
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.group{
+    width: 14em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label{
+    margin-right: 3em;
+}

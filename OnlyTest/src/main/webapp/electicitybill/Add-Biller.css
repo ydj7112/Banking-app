@@ -1,0 +1,172 @@
+.Add-Biller{
+    font-family: outfit;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Add-Biller a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #54a3c2;
+    padding: 9px;
+    border-radius: 3px;
+    width: 17.5em;
+    font-size: larger;
+    text-align: center;
+    margin: 1em 0em 0em 0em;
+    transition: all 0.4s;
+}
+
+.Add-Biller a:hover{
+    background-color: #407a91;
+}
+
+.box2{
+    width: 50%;
+    height: 20em;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.sub-box{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 1em;
+    width: 18em;
+    height: 10em;
+    line-height: 2em;
+    position: relative;
+    bottom: 1.5em;
+    left: -2em;
+    font-size: 1.4em;
+}
+
+.sub-box img{
+    transform: scale(2);
+    padding: 0px 0px 0px 14px
+}
+
+.sub-box hr{
+    border: 1px solid rgb(200, 60, 60);
+}
+
+.acc{
+    display: flex;
+    justify-content: space-between;
+    width: 81%;
+}
+
+.sideb{
+    width: 26em;
+    background: white;
+    height: 23em;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 1em 2em;
+}
+
+.sideb1{
+    width: 50%;
+}
+.sideb1 p{
+    color: grey;
+    font-size: small;
+}
+
+.sideb2{
+    display: flex;
+    width: 50%;
+}
+.sideb2 img{
+    position: relative;
+    right: 27em;
+    bottom: 5em;
+    transform: scale(0.09);
+}
+.sideb2 p{
+    position: relative;
+    right: 49.4em;
+    top: 5em;
+    font-family: open sans;
+    color: black;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.side-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 47em;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.side-box ul {
+    display: grid;
+    place-content: baseline;
+    position: absolute;
+    width: 50%;
+    font-family: open sans;
+    list-style: none;
+    line-height: 5px;
+}
+
+.side-box ul li{
+    margin-bottom: 1em;
+}
+
+.side-box h3{
+    color: #2a90da;
+}
+
+.side-box:target {
+    visibility: visible;
+    opacity: 1;
+    backdrop-filter: blur(4px);
+}
+
+.side-box button{
+    background-color: #1796ff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0.8em 7em;
+    margin-top: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.side-box button:hover{
+    background-color: #2273ad;
+}
+
+.box-close {
+    position: relative;
+    top: -5.5em;
+    right: 30px;
+    font-size: 30px;
+    width: auto;
+    height: fit-content;
+}
+
+.side-box .box-close a{
+    color: #4b4b4b;
+    text-decoration: none;
+    font-size: 30px;
+    width: fit-content;
+    height: fit-content;
+}

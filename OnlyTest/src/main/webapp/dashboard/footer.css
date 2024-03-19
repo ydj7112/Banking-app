@@ -1,0 +1,51 @@
+footer{
+    display: flex;
+    text-align: center;
+    place-content: center;
+    position: relative;
+    background: linear-gradient(0deg,rgba(8,32,50,.9),rgba(8,32,50,.9));
+    color: white;
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    color: rgb(147, 212, 255);
+    padding: 0em;
+    height: auto;
+    line-height: 2.5em;
+    text-decoration-line: underline;
+}
+.footer .h1,.h2,.h3,.h4{
+    list-style: none;
+    bottom: 0px;
+    text-align: left;
+}
+.about-us p{
+    text-align: left;
+    text-decoration: none;
+}
+.h1{
+    width: 20em;
+    height: auto;
+    margin: 2em 2em;
+}
+.h2{
+    width: auto;
+    height: auto;
+    margin: 2em 2em;
+}
+.h3{
+    width: auto;
+    height: auto;
+    margin: 2em 2em;
+}
+.h4{
+    width: auto;
+    height: auto;
+    margin: 2em 2em;
+}
+
+footer p a{
+    color: rgb(0, 119, 255);
+}

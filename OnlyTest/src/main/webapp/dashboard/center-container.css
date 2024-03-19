@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.center-container{
+    display: flex;
+    background-color: #427D9D;
+    width: 50em;
+    height: auto;
+    border-radius: 4px;
+    margin: 15px 20px 20px 20px;
+    padding: 1em;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.acc-container{
+    font-family: open sans light;
+    display: block;
+    background-color: white;
+    width: 48em;
+    padding: 1em;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.acc-container table{
+    display: grid;
+}
+
+.acc-container table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.acc-container table tr th{
+    width: 15em;
+    text-align: center;
+}
+
+.acc-container table thead{
+    border-bottom: 2px solid #956748;
+    color: #235b79;
+    height: 2em;
+}
+
+.acc-container table tbody th{
+    margin-top: 1em;
+    color: #000000;
+}

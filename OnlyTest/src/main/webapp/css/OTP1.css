@@ -1,0 +1,133 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(230, 230, 230, 0.788);
+    margin: 0%;
+    padding: 0%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    padding: 20px;
+    width: 97.4%;
+    max-height: 20em;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+}
+.heading{
+    position: relative;
+    font-size: 1.4em;
+    
+}
+.box{
+    padding: 20px;
+    max-width: 58em;
+    margin: auto;
+    height: 500px;
+    position: relative;
+    top: 1.5em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    display: flex;
+    place-content: center;
+}
+.B1{
+    max-width: 497px;
+    height: 420px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+.Heading{
+    font-size: larger;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.continue{
+    color: white;
+    height: 1.8em;
+    width: 13em;
+    background-color: rgb(15, 131, 255);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    position: relative;
+    left: 2.6em;
+}
+
+.note{
+    background-color:#00c6523b;
+    width: 34em;
+    padding: 10px;
+    font-size: 14px;
+    color: #1d2229;
+    font-stretch: 2em;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-size: 14px;
+}
+span{
+    margin: 0px 15px 0px 0px;
+    line-height: 33px;
+}
+
+.DA{
+    margin: 3px 0px 8px 0px;
+    font-size: large;
+}
+
+.OTP{
+    font-size: 14px;
+    color: rgb(54, 54, 54);
+}
+#otp{
+    margin: 20px 13px 2px 20px;
+    color: rgb(54, 54, 54);
+    padding: 7px 10px 7px 10px;
+    box-shadow: 3px 2px 5px 0px #868686;
+    background: #fff;
+    border-radius: 3px;
+    border-color: #acccff;
+    border-style: ridge;
+    width: 16.8em;
+    outline: none;
+}
+.input::-webkit-inner-spin-button,
+.input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+.icode {
+    display: flex;
+    place-content: center;
+    height: 4em;
+}
+.icode img{
+	transform:scale(0.5)
+}
+.icodeBankPro{
+    background: #0063B2FF;
+    border-radius: 4px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 199px;
+    height: 40px;
+    color: rgb(210, 241, 255);
+    font-size: larger;
+    place-content: center;
+    display: flex;
+}
+footer{
+    position: relative;
+    top: 20px;
+    background-color: #0063B2FF;
+    margin-top: auto;
+}
+html{
+    height: 100%;
+}

@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    place-content: center;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+.faq-container .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+
+.sub-container .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+
+.text {
+    flex: 1;
+    margin-left: 8em;
+}
+
+.image {
+    width: fit-content;
+    height: fit-content;
+    flex: 1;
+    text-align: center;
+}
+
+.faq-container img {
+    max-width: 50%;
+    height: auto;
+    transform: scale(0.8);
+}
+
+section{
+    padding: 0em 3em;
+}
+
+.faq-body {
+    display: none;
+}
+
+.faq-container.active .faq-body {
+    display: block;
+}
+
+.sub-container.active .faq-body {
+    display: block;
+}
+
+.hr-line {
+    width: 100%;
+    margin: 8px 0;
+}
+
+/* Styling for FAQ questions */
+
+.faq-page {
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    transition: all 0.2s;
+    width: 22em;
+}
+
+/* Styling for FAQ answers */
+.faq-body p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Active class for clicked FAQ questions */
+
+.faq-body {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    width: 22em;
+}
+
+.faq-page:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}

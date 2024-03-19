@@ -1,0 +1,280 @@
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+ 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.center-container{
+    display: flex;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(182 208 230));
+    box-shadow: 0px 0px 0 2px #bfbfbf;
+    width: 73em;
+    height: auto;
+    border-radius: 4px;
+    margin: 15px 33px 20px 20px;
+    padding: 1em;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+
+.center-container a{
+    padding: 5px;
+}
+
+.center-container .h1{
+    margin: 3px 0px 21.4px 0px;
+    color: #e5f2ff;
+    background-color: #103c54;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    max-width: 7em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.center-container
+::-webkit-scrollbar {
+    background: rgb(210, 210, 210);
+    width: 0.6em;
+    margin: 4px 0px;
+}
+.center-container
+::-webkit-scrollbar-thumb {
+    background-color: rgb(90, 106, 126);
+    border-radius: 3px;
+    height: 1em;
+}
+
+.box1{
+    width: 50%;
+    padding-left: 9em;
+}
+
+/*////////Exit Button////////*/
+.selectbiller-exit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectbiller-exit .h1{
+    margin: 3px 0px 21.4px;
+    padding: 3px;
+    color: rgb(229, 242, 255);
+    background-color: rgb(16, 60, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    max-width: 7em;
+    font-size: x-large;
+}
+
+.selectbiller-exit h3{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size: medium;
+    font-weight: 400;
+    margin: 7px 0px 27px 0px;
+}
+
+.exitAddBiller{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectbiller-exit h3 a{
+    font-family: outfit;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    height: 1.87em;
+    background-color: #254678;
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.selectbiller-exit h3 a:hover{
+    background-color: #4b7982;
+    color: #103c54;
+}
+
+.selectbiller-exit h3 button{
+    font-family: outfit;
+    text-decoration: none;
+    color: white;
+    background-color: #254678;
+    width: fit-content;
+    height: 1.87em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+.selectbiller-exit button:hover{
+    transform: scale(1.3);
+}
+
+.selectbiller-exit img{
+    transform: scale(0.8);
+    padding: 0px 0px 0px 7px;
+}
+
+/*////////Biller Name////////*/
+.biller{
+    display: flex;
+    font-size: 1.5em;
+    margin: 0.3em 0em 1em 0em;
+    place-content: center;
+}
+.biller img{
+    margin: 5px;
+    transform: scale(1);
+    width: 3em;
+}
+
+/*////////Inputs////////*/
+.details{
+    display: flex;
+}
+
+.details .inputs{
+    display: grid;
+}
+
+.inputs .heading{
+    position: relative;
+    top: 9px;
+    left: 8px;
+    padding: 0px 4px;
+    width: fit-content;
+    color: rgb(75, 75, 75);
+    background-image: linear-gradient(0deg, white, #d8ecff00);
+    backdrop-filter: blur(3px);
+    font-size: small;
+}
+
+.details input{
+    margin: 0px 0px 10px 0px;
+    padding: 12px 10px 7px 10px;
+    border-radius: 4px;
+    width: 21em;
+    box-sizing: border-box;
+    border: 2px solid #b7b7b7;
+    outline: none;
+    font-size: medium;
+    box-shadow: none;
+    transition-property: box-shadow;
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+input:hover{
+    box-shadow: 2px 2px 3px 0px #082a2f2b;
+}
+/*////////Button Slider section////////*/
+.smartpay{
+    display: flex;
+    align-items: center;
+    width: 21.5em;
+    justify-content: space-between;
+    margin: 5px 0px 5px 3px;
+}
+
+/*////////Button Slider////////*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+    transform: scale(0.6);
+
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+/*////////Box 2////////*/
+

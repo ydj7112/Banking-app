@@ -1,0 +1,15 @@
+ main{
+    display: flex;
+    justify-content: center;
+}
+.center-container{
+    display: flex;
+    background-color: #427D9D;
+    width: 65em;
+    height: auto;
+    border-radius: 4px;
+    margin: 15px 20px 20px 20px;
+    padding: 1em;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}

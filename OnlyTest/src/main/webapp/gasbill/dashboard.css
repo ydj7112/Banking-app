@@ -1,0 +1,82 @@
+* {box-sizing: border-box;}
+img {vertical-align: middle;}
+body{
+    font-family: 'Open Sans', sans-serif;;
+    margin: 1.5em 0em 0em 0em;
+    background-color: #ffffff;
+    display: block;
+}
+.icode{
+    display: flex;
+    place-content: center;
+}
+.icodeBankPro{
+
+    transform:scale(0.16);
+    border-radius: 4px;
+    font-weight: 600;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    width: 199px;
+    height: 40px;
+    color: rgb(210, 241, 255);
+    font-size: larger;  
+    margin-bottom:1.5em ;
+    position: relative;
+    left: 5.2em;
+}
+.profile-icon img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+.profile-icon{
+    position: relative;
+    top: 2em;
+    left: 30em;
+    cursor: pointer;
+}
+.Log-Out a{
+    text-decoration: none;
+    color: white;
+}
+
+.Log-Out{
+
+    position: relative;
+    top: 2em;
+    left: 33em;
+    cursor: pointer;
+    background-color: #3a5a7a;
+    height: 1.9em;
+    padding: 6px 8px;
+    border-radius: 1em;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+.Log-Out a:hover{
+    color: black;
+}
+.Log-Out:hover{
+    background-color: #4b76a2;
+}
+.ul{
+    height: 3em;
+    background-color:#bbddff;
+    border-radius: 4px;
+}
+ul{
+    padding: 0px;
+    display: flex;
+    place-content: center;
+    margin: 0;
+}
+.ul hr{
+    margin: 10px 0px 0px 0px;
+    background-color: #3a5a7a;
+    border: none;
+    height: 1.8em;
+    width: 0.8px;
+}

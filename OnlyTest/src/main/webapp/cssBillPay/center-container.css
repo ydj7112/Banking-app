@@ -1,0 +1,76 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.center-container{
+    display: flex;
+    background-color: #427D9D;
+    width: 50em;
+    height: auto;
+    border-radius: 4px;
+    margin: 15px 20px 20px 20px;
+    padding: 1em;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: outfit;
+}
+.acc-container{
+    display: flex;
+    justify-content: left;
+    width: 44em;
+    border-radius: 3px;
+}
+.mobile-pay,
+.gas-pay,
+.electricity-pay,
+.dth-pay{
+    background-color: #e2f4ff;
+    margin: 0em 1em;
+    border-radius: 7px;
+    width: 9em;
+    box-shadow: 0px 0px 0px 0px #112442;;
+    transition-property: background-color box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+.mobile-pay:hover{
+    background-color: #cce8f7;
+    box-shadow: 2px 3px 8px 0px #112442;
+}
+.gas-pay:hover{
+    background-color: #cce8f7;
+    box-shadow: 2px 3px 8px 0px #112442;
+}
+.dth-pay:hover{
+    background-color: #cce8f7;
+    box-shadow: 2px 3px 8px 0px #112442;
+}
+.electricity-pay:hover{
+    background-color: #cce8f7;
+    box-shadow: 2px 3px 8px 0px #112442;
+}
+.acc-container img{
+    padding: 0.6em 1.55em 0.5em 1.55em;
+}
+.center-container h2{
+    margin: 0.5em 0em 1em 0.76em;
+    color: #030b0d;
+    font-weight: 500;
+}
+.acc-container a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(6, 68, 116);
+    font-family: outfit;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in;
+}
+.acc-container p{
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+.acc-container a:hover{
+    color: rgb(2, 33, 59);
+}
