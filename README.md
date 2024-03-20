@@ -14,5 +14,5 @@ IMPORT SQL FILES IN DATABASE
 #Deployment Steps:
 1.Extract files from github repository
 2.Open OnlyTest with Eclipse 
-3.Integrate Tomact with Eclipse
+3.Integrate Tomcat with Eclipse
 4.Run as Server
